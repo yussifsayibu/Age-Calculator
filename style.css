@@ -252,6 +252,7 @@
       body{
         height: auto;
         position: relative;
+        overflow: hidden;
     }
 
     /* Theme switcher */
@@ -308,6 +309,7 @@
         align-items: center;
         flex-direction: column;
         background-color: var(--Light-grey);
+        overflow: hidden;
     }
 
     .main-container{
@@ -331,7 +333,8 @@
 
     .input-container{
         display: flex;
-        gap: 30px;
+        align-items: center;
+        column-gap: 30px;
     }
 
     .input-container h2{
