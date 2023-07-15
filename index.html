@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Calculate your age accurately and effortlessly with our online age calculator tool. Our advanced age calculator instantly determines your age in years, months, and days based on your birthdate. Discover interesting age-related facts and find out how many days you have been alive. Start using our free age calculator today for quick and precise age calculations.">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link href="assets/fontawesome/css/all.css" rel="stylesheet">
+  <link href="assets/fontawesome/webfonts/fa-brands-400.ttf" rel="stylesheet">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+  
+</head>
+<body>
+
+  
+
+  <main class="js-main">
+
+    <div class="theme-toggler">
+      <button class="js-theme-switcher"></button>
+      <i class="fa-solid fa-sun js-lightmode"></i>
+      <i class="fa-solid fa-moon js-darkmode"></i>
+    </div>
+
+    <section class="main-container">
+
+      <div class="input-container">
+  
+        <div class="container-day">
+          <h2 class="js-dayTittle">Day</h2>
+          <input type="text" class="js-dateInput" placeholder="DD" minlength="2"  maxlength="2" required>
+          <p class="js-emptyDay"></p>
+        </div>
+  
+        <div class="container-month">
+          <h2 class="js-monthTittle">Month</h2>
+          <input type="text" class="js-montInput" placeholder="MM" minlength="2"  maxlength="2" required>
+          <p class="js-emptyMonth"></p>
+        </div>
+  
+        <div class="container-year">
+          <h2 class="js-yearTittle">Year</h2>
+          <input type="text" class="js-yearInput" placeholder="YYYY" minlength="4"  maxlength="4" required>
+          <p class="js-emptyYear"></p>
+        </div>
+  
+      </div>
+  
+      <div class="btn-contain">
+        <div class="line-hon"><hr></div>
+        <button class="js-btn" onclick="ageCalculator()"><img src="assets/images/icon-arrow.svg" alt="" class="js-btnIcon"></button>
+  
+      </div>
+  
+      <div class="output-container">
+  
+        <h3 class="js-years"><span class="js-output-years">--</span>years</h3>
+        <h3 class="js-months"><span class="js-output-months">--</span>months</h3>
+        <h3 class="js-days"><span class="js-output-days">--</span>days</h3>
+  
+      </div>
+  
+    </section>
+  
+    <footer>
+      <p class="copy">
+       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" >Frontend Mentor</a>. 
+        Coded by <a href="#" class="js-frontend">Yuss<span>Dev</span></a>.
+      </p>
+    </footer>
+  </main>
+
+
+  <script src="ageApp.js"></script>
+  
+</body>
+</html>
