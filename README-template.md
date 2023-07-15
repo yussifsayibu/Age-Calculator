@@ -41,8 +41,8 @@ Contributions are welcome! If you have any suggestions, improvements, or bug fix
 ## Author
 
 - Frontend Mentor - [@yussifsayibu](https://www.frontendmentor.io/profile/yussifsayibu)
-- Threads - [@yussdev](https://www.threads.com/yussdev)
-- TikTok - [@yuss.dev](https://www.tiktok.com/yuss.dev)
+- Instagram - [@yussdev](https://www.instagram.com/yussdev/)
+- TikTok - [@yuss.dev](https://www.tiktok.com/@yuss.dev)
 
 
 ## Acknowledgements
