@@ -7,7 +7,7 @@ A simple web application that allows you to calculate your age based on your bir
 
 ## Demo
 
-You can try out the age calculator by visiting the live [demo link](https://your-demo-link.com).
+You can try out the age calculator by visiting the live [demo link](https://yussifsayibu.github.io/Age-Calculator/).
 
 ## Features
 
@@ -41,8 +41,8 @@ Contributions are welcome! If you have any suggestions, improvements, or bug fix
 ## Author
 
 - Frontend Mentor - [@yussifsayibu](https://www.frontendmentor.io/profile/yussifsayibu)
-- Threads - [@yussdev](https://www.twitter.com/yussdev)
-- TikTok - [@yuss.dev](https://www.twitter.com/yuss.dev)
+- Threads - [@yussdev](https://www.threads.com/yussdev)
+- TikTok - [@yuss.dev](https://www.tiktok.com/yuss.dev)
 
 
 ## Acknowledgements

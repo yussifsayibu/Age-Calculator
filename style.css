@@ -254,6 +254,52 @@
         position: relative;
     }
 
+    /* Theme switcher */
+
+  .theme-toggler{
+    width: 130px;
+    height: 40px;
+    padding: 25px 10px;
+    border-radius: 50px;
+    background: var(--Off-black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 30px;
+    margin-top: 20px;
+  }
+
+  .theme-toggler button{
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--White);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .toggle{
+    transform: translateX(6px);
+  }
+
+  .theme-toggler .fa-sun{
+    font-size: 25px;
+    cursor: pointer;
+    color: var(--White);
+  }
+
+  .theme-toggler .fa-moon{
+    font-size: 25px;
+    cursor: pointer;
+    color: var(--White);
+    display: none;
+    transition: all 0.3s ease-in;
+  }
+
     main{
         width: 100%;
         height: auto;
@@ -403,6 +449,53 @@
         position: relative;
     }
 
+    /* Theme switcher */
+
+  .theme-toggler{
+    width: 130px;
+    height: 40px;
+    padding: 25px 10px;
+    border-radius: 50px;
+    background: var(--Off-black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 45px;
+  }
+
+  .theme-toggler button{
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--White);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .toggle{
+    transform: translateX(6px);
+  }
+
+  .theme-toggler .fa-sun{
+    font-size: 25px;
+    cursor: pointer;
+    color: var(--White);
+  }
+
+  .theme-toggler .fa-moon{
+    font-size: 25px;
+    cursor: pointer;
+    color: var(--White);
+    display: none;
+    transition: all 0.3s ease-in;
+  }
+
     main{
         width: 100%;
         height: 100vh;
@@ -416,7 +509,7 @@
         background-color: var(--White);
         padding: 30px;
         margin: 0px 15px;
-        margin-top: 60px;
+        margin-top: 80px;
         height: 700px;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
@@ -553,6 +646,52 @@
         height: auto;
         position: relative;
     }
+
+    /* Theme switcher */
+
+  .theme-toggler{
+    width: 100px;
+    height: 40px;
+    padding: 20px 10px;
+    border-radius: 50px;
+    background: var(--Off-black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+
+  .theme-toggler button{
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--White);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .toggle{
+    transform: translateX(6px);
+  }
+
+  .theme-toggler .fa-sun{
+    font-size: 20px;
+    cursor: pointer;
+    color: var(--White);
+  }
+
+  .theme-toggler .fa-moon{
+    font-size: 20px;
+    cursor: pointer;
+    color: var(--White);
+    display: none;
+    transition: all 0.3s ease-in;
+  }
 
     main{
         width: 100%;
